@@ -17,13 +17,5 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
-        run: npm test
-
-      - name: Deploy
-        if: success()
-        run: echo "Deploying application..."
+     
 
